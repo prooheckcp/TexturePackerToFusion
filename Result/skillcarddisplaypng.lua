@@ -14,3 +14,5 @@ local function skillcarddisplaypng()
        Size = UDim2.fromOffset(263, 438),
    }
 end
+
+return skillcarddisplaypng

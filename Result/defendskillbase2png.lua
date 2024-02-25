@@ -14,3 +14,5 @@ local function defendskillbase2png()
        Size = UDim2.fromOffset(320, 55),
    }
 end
+
+return defendskillbase2png

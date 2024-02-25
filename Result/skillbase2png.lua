@@ -14,3 +14,5 @@ local function skillbase2png()
        Size = UDim2.fromOffset(323, 55),
    }
 end
+
+return skillbase2png

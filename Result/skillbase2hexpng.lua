@@ -14,3 +14,5 @@ local function skillbase2hexpng()
        Size = UDim2.fromOffset(253, 55),
    }
 end
+
+return skillbase2hexpng

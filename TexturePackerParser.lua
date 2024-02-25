@@ -66,7 +66,8 @@ function TexturePackerParser:_LoadFrame(frameObject: FrameObject)
         '       BackgroundTransparency = 1,',
         `       Size = UDim2.fromOffset({sourceSize.w}, {sourceSize.h}),`,
         '   }',
-        `end`
+        `end\n`,
+        `return {frameName}`
     )
 
     fs.writeDir(WRITE_TO_DIR)
