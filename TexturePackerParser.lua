@@ -29,7 +29,7 @@ local TexturePackerParser = {}
 
 function TexturePackerParser:Parse(jsonObject)
     fs.removeDir(WRITE_TO_DIR)
-    
+
     for _, frameObject: FrameObject in jsonObject.frames do
         self:_LoadFrame(frameObject)
     end
@@ -60,9 +60,11 @@ function TexturePackerParser:_LoadFrame(frameObject: FrameObject)
         `local function {frameName}()`,
         '   return New "ImageLabel"{',
         `       Name = {frameName},`,
+        '       Image = "",',
         `       ImageRectOffset = Vector2.new({sourceSize.x}, {sourceSize.y}),`,
         `       ImageRectSize = Vector2.new({sourceSize.w}, {sourceSize.h}),`,
         '       BackgroundTransparency = 1,',
+        `       Size = UDim2.fromOffset({sourceSize.w}, {sourceSize.h}),`,
         '   }',
         `end`
     )
