@@ -1,3 +1,6 @@
+--!strict
+local fs = require("@lune/fs")
+
 type FrameObject = {
     filename: string,
     sourceSize: {
@@ -20,16 +23,52 @@ type FrameObject = {
     },
 }
 
+local WRITE_TO_DIR: string = "./Result"
+
 local TexturePackerParser = {}
 
 function TexturePackerParser:Parse(jsonObject)
+    fs.removeDir(WRITE_TO_DIR)
+    
     for _, frameObject: FrameObject in jsonObject.frames do
         self:_LoadFrame(frameObject)
     end
 end
 
+function TexturePackerParser:_CreateString(...: {string})
+    local finalString: string = ""
+    
+    for _, str: string in {...} do
+        finalString = finalString ..str.. "\n"
+    end
+
+    return finalString
+end
+
+function TexturePackerParser:_ClearString(str: string): string
+    return (({(({str:gsub(" ", "")})[1]):gsub("%.", "")})[1]):lower()
+end
+
 function TexturePackerParser:_LoadFrame(frameObject: FrameObject)
-    print("Load the frame")
+    local frameName: string = self:_ClearString(frameObject.filename)
+    local sourceSize = frameObject.frame
+    print(frameName)
+    local finalString: string = self:_CreateString(
+        `local ReplicatedStorage = game:GetService("ReplicatedStorage")\n`,
+        `local Fusion = require(ReplicatedStorage.Packages.Fusion)\n`,
+        `local New = Fusion.New\n`,
+        `local function {frameName}()`,
+        '   return New "ImageLabel"{',
+        `       Name = {frameName},`,
+        `       ImageRectOffset = Vector2.new({sourceSize.x}, {sourceSize.y}),`,
+        `       ImageRectSize = Vector2.new({sourceSize.w}, {sourceSize.h}),`,
+        '       BackgroundTransparency = 1,',
+        '   }',
+        `end`
+    )
+
+    fs.writeDir(WRITE_TO_DIR)
+    fs.writeFile(`{WRITE_TO_DIR}/{frameName}.lua`, finalString)
 end
 
 return TexturePackerParser
