@@ -7,7 +7,7 @@ local New = Fusion.New
 local function skillbasepng()
    return New "ImageLabel"{
        Name = skillbasepng,
-       Image = "",
+       Image = "42141",
        ImageRectOffset = Vector2.new(1, 337),
        ImageRectSize = Vector2.new(446, 93),
        BackgroundTransparency = 1,

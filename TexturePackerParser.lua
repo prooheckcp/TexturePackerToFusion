@@ -27,11 +27,11 @@ local WRITE_TO_DIR: string = "./Result"
 
 local TexturePackerParser = {}
 
-function TexturePackerParser:Parse(jsonObject)
+function TexturePackerParser:Parse(jsonObject, assetId: string)
     fs.removeDir(WRITE_TO_DIR)
 
     for _, frameObject: FrameObject in jsonObject.frames do
-        self:_LoadFrame(frameObject)
+        self:_LoadFrame(frameObject, assetId)
     end
 end
 
@@ -49,7 +49,7 @@ function TexturePackerParser:_ClearString(str: string): string
     return (({(({str:gsub(" ", "")})[1]):gsub("%.", "")})[1]):lower()
 end
 
-function TexturePackerParser:_LoadFrame(frameObject: FrameObject)
+function TexturePackerParser:_LoadFrame(frameObject: FrameObject, assetId: string)
     local frameName: string = self:_ClearString(frameObject.filename)
     local sourceSize = frameObject.frame
     print(frameName)
@@ -60,7 +60,7 @@ function TexturePackerParser:_LoadFrame(frameObject: FrameObject)
         `local function {frameName}()`,
         '   return New "ImageLabel"{',
         `       Name = {frameName},`,
-        '       Image = "",',
+        `       Image = "{assetId}",`,
         `       ImageRectOffset = Vector2.new({sourceSize.x}, {sourceSize.y}),`,
         `       ImageRectSize = Vector2.new({sourceSize.w}, {sourceSize.h}),`,
         '       BackgroundTransparency = 1,',
