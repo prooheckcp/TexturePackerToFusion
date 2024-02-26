@@ -6,7 +6,7 @@ local New = Fusion.New
 
 local function battleuiassetsselectiondpetitemitemslotpotion()
    return New "ImageLabel"{
-       Name = battleuiassetsselectiondpetitemitemslotpotion,
+       Name = "battleuiassetsselectiondpetitemitemslotpotion",
        Image = "rbxassetid://16529473496",
        ImageRectOffset = Vector2.new(896, 780),
        ImageRectSize = Vector2.new(56, 57),

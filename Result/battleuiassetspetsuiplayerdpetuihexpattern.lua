@@ -6,7 +6,7 @@ local New = Fusion.New
 
 local function battleuiassetspetsuiplayerdpetuihexpattern()
    return New "ImageLabel"{
-       Name = battleuiassetspetsuiplayerdpetuihexpattern,
+       Name = "battleuiassetspetsuiplayerdpetuihexpattern",
        Image = "rbxassetid://16529473496",
        ImageRectOffset = Vector2.new(0, 834),
        ImageRectSize = Vector2.new(473, 150),

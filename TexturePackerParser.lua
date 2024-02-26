@@ -64,7 +64,7 @@ function TexturePackerParser:_LoadFrame(metaData, frameObject: FrameObject, asse
         `local New = Fusion.New\n`,
         `local function {frameName}()`,
         '   return New "ImageLabel"{',
-        `       Name = {frameName},`,
+        `       Name = "{frameName}",`,
         `       Image = "{assetId}",`,
         `       ImageRectOffset = Vector2.new({frame.x}, {frame.y}),`,
         `       ImageRectSize = Vector2.new({frame.w}, {frame.h}),`,
