@@ -1,57 +1,369 @@
 {"frames": [
 
 {
-	"filename": "DEFEND SKILL BASE 2.png",
-	"frame": {"x":1,"y":1,"w":320,"h":55},
+	"filename": "BATTLE MENU/BATTLE MENU BASE.png",
+	"frame": {"x":1,"y":1,"w":1326,"h":460},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1326,"h":460},
+	"sourceSize": {"w":1326,"h":460}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU BATTLE BUTTON.png",
+	"frame": {"x":1,"y":463,"w":1287,"h":207},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1287,"h":207},
+	"sourceSize": {"w":1287,"h":207}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU BATTLE ICON.png",
+	"frame": {"x":1050,"y":993,"w":341,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":142},
+	"sourceSize": {"w":341,"h":142}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU DPET BUTTON.png",
+	"frame": {"x":1005,"y":1137,"w":406,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":406,"h":166},
+	"sourceSize": {"w":406,"h":166}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU DPET ICON.png",
+	"frame": {"x":1748,"y":1684,"w":78,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":107},
+	"sourceSize": {"w":78,"h":107}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU DPET PARTY COUNTER 2.png",
+	"frame": {"x":914,"y":1607,"w":25,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":25},
+	"sourceSize": {"w":25,"h":25}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU DPET PARTY COUNTER.png",
+	"frame": {"x":1005,"y":1030,"w":43,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":63},
+	"sourceSize": {"w":43,"h":63}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU ITEM BUTTON.png",
+	"frame": {"x":1005,"y":1305,"w":406,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":406,"h":166},
+	"sourceSize": {"w":406,"h":166}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU ITEM ICON.png",
+	"frame": {"x":1528,"y":441,"w":58,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":58},
+	"sourceSize": {"w":58,"h":58}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU RUN BUTTON.png",
+	"frame": {"x":914,"y":1663,"w":406,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":406,"h":166},
+	"sourceSize": {"w":406,"h":166}
+},
+{
+	"filename": "BATTLE MENU/BATTLE MENU RUN ICON.png",
+	"frame": {"x":1726,"y":1391,"w":109,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":110},
+	"sourceSize": {"w":109,"h":110}
+},
+{
+	"filename": "BUTTONS/BACK ARROW.png",
+	"frame": {"x":950,"y":1316,"w":41,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":45},
+	"sourceSize": {"w":41,"h":45}
+},
+{
+	"filename": "BUTTONS/BUTTON BLUE.png",
+	"frame": {"x":1724,"y":1614,"w":138,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":138,"h":68},
+	"sourceSize": {"w":138,"h":68}
+},
+{
+	"filename": "BUTTONS/BUTTON RED LONG.png",
+	"frame": {"x":1644,"y":1823,"w":183,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":68},
+	"sourceSize": {"w":183,"h":68}
+},
+{
+	"filename": "BUTTONS/BUTTON RED.png",
+	"frame": {"x":1604,"y":1893,"w":138,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":138,"h":68},
+	"sourceSize": {"w":138,"h":68}
+},
+{
+	"filename": "ELEMENTS/AIR.png",
+	"frame": {"x":1413,"y":1278,"w":311,"h":311},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":311,"h":311},
+	"sourceSize": {"w":311,"h":311}
+},
+{
+	"filename": "ELEMENTS/EARTH.png",
+	"frame": {"x":1594,"y":1,"w":296,"h":323},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":296,"h":323},
+	"sourceSize": {"w":296,"h":323}
+},
+{
+	"filename": "ELEMENTS/FIRE.png",
+	"frame": {"x":1686,"y":645,"w":207,"h":319},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":207,"h":319},
+	"sourceSize": {"w":207,"h":319}
+},
+{
+	"filename": "ELEMENTS/ICE.png",
+	"frame": {"x":1368,"y":645,"w":316,"h":314},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":316,"h":314},
+	"sourceSize": {"w":316,"h":314}
+},
+{
+	"filename": "ELEMENTS/POISON.png",
+	"frame": {"x":1594,"y":326,"w":300,"h":317},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":317},
+	"sourceSize": {"w":300,"h":317}
+},
+{
+	"filename": "ELEMENTS/THUNDER.png",
+	"frame": {"x":1050,"y":672,"w":316,"h":319},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":316,"h":319},
+	"sourceSize": {"w":316,"h":319}
+},
+{
+	"filename": "ELEMENTS/WATER.png",
+	"frame": {"x":1413,"y":961,"w":238,"h":315},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":238,"h":315},
+	"sourceSize": {"w":238,"h":315}
+},
+{
+	"filename": "PETS UI/ENEMY DPET UI FRAME.png",
+	"frame": {"x":1,"y":1898,"w":509,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":509,"h":73},
+	"sourceSize": {"w":509,"h":73}
+},
+{
+	"filename": "PETS UI/ENEMY DPET UI HEX PATTERN.png",
+	"frame": {"x":512,"y":1898,"w":499,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":499,"h":73},
+	"sourceSize": {"w":509,"h":73}
+},
+{
+	"filename": "PETS UI/PET UI PLATE.png",
+	"frame": {"x":1,"y":1030,"w":1002,"h":284},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1002,"h":284},
+	"sourceSize": {"w":1002,"h":284}
+},
+{
+	"filename": "PETS UI/Player DPET UI FRAME.png",
+	"frame": {"x":1,"y":1316,"w":947,"h":289},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":947,"h":289},
+	"sourceSize": {"w":947,"h":289}
+},
+{
+	"filename": "PETS UI/Player DPET UI HEX PATTERN.png",
+	"frame": {"x":1,"y":1607,"w":911,"h":289},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":0,"w":911,"h":289},
+	"sourceSize": {"w":947,"h":289}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT BASE ACTIVE KO MARKER.png",
+	"frame": {"x":1398,"y":1591,"w":324,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":119},
+	"sourceSize": {"w":324,"h":119}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT BASE.png",
+	"frame": {"x":1322,"y":1712,"w":314,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":314,"h":109},
+	"sourceSize": {"w":314,"h":109}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT BLANK.png",
+	"frame": {"x":1653,"y":966,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT BLAZEDGE BASE.png",
+	"frame": {"x":1653,"y":1042,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT FINLASH BASE.png",
+	"frame": {"x":1653,"y":1118,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT FREEZELETTE BASE.png",
+	"frame": {"x":1653,"y":1194,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT KINOBI BASE.png",
+	"frame": {"x":1329,"y":441,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/DPET SLOT PORTRAIT TRIKAT BASE.png",
+	"frame": {"x":1290,"y":517,"w":197,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":74},
+	"sourceSize": {"w":197,"h":74}
+},
+{
+	"filename": "SELECTION DPET ITEM/ITEM DPET WINDOW.png",
+	"frame": {"x":1,"y":672,"w":1047,"h":356},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":797,"y":639,"w":1047,"h":356},
+	"sourceSize": {"w":1920,"h":1080}
+},
+{
+	"filename": "SELECTION DPET ITEM/ITEM SLOT BLANK.png",
+	"frame": {"x":1638,"y":1712,"w":108,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":109},
+	"sourceSize": {"w":108,"h":109}
+},
+{
+	"filename": "SELECTION DPET ITEM/ITEM SLOT MARKER.png",
+	"frame": {"x":1726,"y":1270,"w":119,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":119},
+	"sourceSize": {"w":119,"h":119}
+},
+{
+	"filename": "SELECTION DPET ITEM/ITEM SLOT POTION.png",
+	"frame": {"x":1726,"y":1503,"w":108,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":109},
+	"sourceSize": {"w":108,"h":109}
+},
+{
+	"filename": "SKILL PALETTE/DEFEND SKILL BASE 2.png",
+	"frame": {"x":1322,"y":1823,"w":320,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":55},
 	"sourceSize": {"w":320,"h":55}
 },
 {
-	"filename": "DEFEND SKILL BASE.png",
-	"frame": {"x":1,"y":172,"w":334,"h":68},
+	"filename": "SKILL PALETTE/DEFEND SKILL BASE.png",
+	"frame": {"x":1013,"y":1888,"w":334,"h":68},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":334,"h":68},
 	"sourceSize": {"w":334,"h":68}
 },
 {
-	"filename": "SKILL BASE 2 HEX.png",
-	"frame": {"x":1,"y":58,"w":253,"h":55},
+	"filename": "SKILL PALETTE/SKILL BASE 2 HEX.png",
+	"frame": {"x":1349,"y":1880,"w":253,"h":55},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":70,"y":0,"w":253,"h":55},
 	"sourceSize": {"w":323,"h":55}
 },
 {
-	"filename": "SKILL BASE 2.png",
-	"frame": {"x":1,"y":115,"w":323,"h":55},
+	"filename": "SKILL PALETTE/SKILL BASE 2.png",
+	"frame": {"x":914,"y":1831,"w":323,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":55},
 	"sourceSize": {"w":323,"h":55}
 },
 {
-	"filename": "SKILL BASE UNEQUIPED.png",
-	"frame": {"x":1,"y":242,"w":446,"h":93},
+	"filename": "SKILL PALETTE/SKILL BASE UNEQUIPED.png",
+	"frame": {"x":950,"y":1473,"w":446,"h":93},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":446,"h":93},
 	"sourceSize": {"w":446,"h":93}
 },
 {
-	"filename": "SKILL BASE.png",
-	"frame": {"x":1,"y":337,"w":446,"h":93},
+	"filename": "SKILL PALETTE/SKILL BASE.png",
+	"frame": {"x":950,"y":1568,"w":446,"h":93},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":446,"h":93},
 	"sourceSize": {"w":446,"h":93}
 },
 {
-	"filename": "SKILL CARD DISPLAY.png",
-	"frame": {"x":1,"y":432,"w":263,"h":438},
-	"rotated": true,
+	"filename": "SKILL PALETTE/SKILL CARD DISPLAY.png",
+	"frame": {"x":1329,"y":1,"w":263,"h":438},
+	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":263,"h":438},
 	"sourceSize": {"w":263,"h":438}
@@ -59,10 +371,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "sprite.png",
+	"image": "FinalSpriteSheet.png",
 	"format": "RGBA8888",
-	"size": {"w":448,"h":696},
+	"size": {"w":1895,"h":1972},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:2517aed6c98c00083859b8fa09aa6e4d:ab9b752b1ba0a8c1eb3bf24098ebdfd9:5d0dbf6a244f2b08f406cf3b3d5a92a4$"
+	"smartupdate": "$TexturePacker:SmartUpdate:edce1f82bd80544387f14bfa219bcc4d:f5df0189db18f136c3571786b08d2185:ab7d8f8373c8b21affdc2dd1fdb13498$"
 }
 }
