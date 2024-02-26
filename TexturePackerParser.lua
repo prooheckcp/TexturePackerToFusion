@@ -46,11 +46,12 @@ function TexturePackerParser:_CreateString(...: {string})
 end
 
 function TexturePackerParser:_ClearString(str: string): string
-    return (({(({str:gsub(" ", "")})[1]):gsub("%.", "")})[1]):lower()
+    return (({(({str:gsub(" ", "")})[1]):gsub("[/%.]", "")})[1]):lower()
 end
 
 function TexturePackerParser:_LoadFrame(frameObject: FrameObject, assetId: string)
     local frameName: string = self:_ClearString(frameObject.filename)
+    print("Frame Name: ", frameName)
     local sourceSize = frameObject.frame
     print(frameName)
     local finalString: string = self:_CreateString(
