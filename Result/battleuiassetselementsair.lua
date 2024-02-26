@@ -7,11 +7,11 @@ local New = Fusion.New
 local function battleuiassetselementsair()
    return New "ImageLabel"{
        Name = battleuiassetselementsair,
-       Image = "rbxassetid://16529407572",
-       ImageRectOffset = Vector2.new(1413, 1278),
-       ImageRectSize = Vector2.new(311, 311),
+       Image = "rbxassetid://16529473496",
+       ImageRectOffset = Vector2.new(733, 663),
+       ImageRectSize = Vector2.new(161, 161),
        BackgroundTransparency = 1,
-       Size = UDim2.fromOffset(311, 311),
+       Size = UDim2.fromOffset(161, 161),
    }
 end
 

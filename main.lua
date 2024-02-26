@@ -14,7 +14,10 @@ for _, filePath: string in rootDirectory do
     end
 
     local assetId: string = stdio.prompt("text", "Image Asset ID: ")
+    local imageX: number = tonumber(stdio.prompt("text", "Insert Image X: "))
+    local imageY: number = tonumber(stdio.prompt("text", "Insert Image Y: "))
+
     local fileContent: string = fs.readFile(filePath)
     local decodedFile = json.decode(fileContent)
-    TexturePackerParser:Parse(decodedFile, assetId)
+    TexturePackerParser:Parse(decodedFile, assetId, imageX, imageY)
 end

@@ -7,11 +7,11 @@ local New = Fusion.New
 local function battleuiassetsskillpaletteskillbase2hex()
    return New "ImageLabel"{
        Name = battleuiassetsskillpaletteskillbase2hex,
-       Image = "rbxassetid://16529407572",
-       ImageRectOffset = Vector2.new(1349, 1880),
-       ImageRectSize = Vector2.new(253, 55),
+       Image = "rbxassetid://16529473496",
+       ImageRectOffset = Vector2.new(700, 976),
+       ImageRectSize = Vector2.new(131, 29),
        BackgroundTransparency = 1,
-       Size = UDim2.fromOffset(253, 55),
+       Size = UDim2.fromOffset(131, 29),
    }
 end
 

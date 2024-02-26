@@ -7,11 +7,11 @@ local New = Fusion.New
 local function battleuiassetsselectiondpetitemdpetslotportraitblazedgebase()
    return New "ImageLabel"{
        Name = battleuiassetsselectiondpetitemdpetslotportraitblazedgebase,
-       Image = "rbxassetid://16529407572",
-       ImageRectOffset = Vector2.new(1653, 1042),
-       ImageRectSize = Vector2.new(197, 74),
+       Image = "rbxassetid://16529473496",
+       ImageRectOffset = Vector2.new(858, 541),
+       ImageRectSize = Vector2.new(102, 38),
        BackgroundTransparency = 1,
-       Size = UDim2.fromOffset(197, 74),
+       Size = UDim2.fromOffset(102, 38),
    }
 end
 

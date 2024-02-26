@@ -7,11 +7,11 @@ local New = Fusion.New
 local function battleuiassetspetsuipetuiplate()
    return New "ImageLabel"{
        Name = battleuiassetspetsuipetuiplate,
-       Image = "rbxassetid://16529407572",
-       ImageRectOffset = Vector2.new(1, 1030),
-       ImageRectSize = Vector2.new(1002, 284),
+       Image = "rbxassetid://16529473496",
+       ImageRectOffset = Vector2.new(0, 534),
+       ImageRectSize = Vector2.new(520, 147),
        BackgroundTransparency = 1,
-       Size = UDim2.fromOffset(1002, 284),
+       Size = UDim2.fromOffset(520, 147),
    }
 end
 
