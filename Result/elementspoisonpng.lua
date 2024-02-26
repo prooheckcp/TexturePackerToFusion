@@ -7,7 +7,7 @@ local New = Fusion.New
 local function elementspoisonpng()
    return New "ImageLabel"{
        Name = elementspoisonpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1594, 326),
        ImageRectSize = Vector2.new(300, 317),
        BackgroundTransparency = 1,

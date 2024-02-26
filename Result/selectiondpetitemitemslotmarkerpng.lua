@@ -7,7 +7,7 @@ local New = Fusion.New
 local function selectiondpetitemitemslotmarkerpng()
    return New "ImageLabel"{
        Name = selectiondpetitemitemslotmarkerpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1726, 1270),
        ImageRectSize = Vector2.new(119, 119),
        BackgroundTransparency = 1,

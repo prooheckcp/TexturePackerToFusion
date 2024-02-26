@@ -7,7 +7,7 @@ local New = Fusion.New
 local function buttonsbackarrowpng()
    return New "ImageLabel"{
        Name = buttonsbackarrowpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(950, 1316),
        ImageRectSize = Vector2.new(41, 45),
        BackgroundTransparency = 1,

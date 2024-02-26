@@ -7,7 +7,7 @@ local New = Fusion.New
 local function selectiondpetitemdpetslotportraitfinlashbasepng()
    return New "ImageLabel"{
        Name = selectiondpetitemdpetslotportraitfinlashbasepng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1653, 1118),
        ImageRectSize = Vector2.new(197, 74),
        BackgroundTransparency = 1,

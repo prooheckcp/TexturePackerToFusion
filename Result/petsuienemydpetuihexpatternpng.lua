@@ -7,7 +7,7 @@ local New = Fusion.New
 local function petsuienemydpetuihexpatternpng()
    return New "ImageLabel"{
        Name = petsuienemydpetuihexpatternpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(512, 1898),
        ImageRectSize = Vector2.new(499, 73),
        BackgroundTransparency = 1,

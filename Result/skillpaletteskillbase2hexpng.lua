@@ -7,7 +7,7 @@ local New = Fusion.New
 local function skillpaletteskillbase2hexpng()
    return New "ImageLabel"{
        Name = skillpaletteskillbase2hexpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1349, 1880),
        ImageRectSize = Vector2.new(253, 55),
        BackgroundTransparency = 1,

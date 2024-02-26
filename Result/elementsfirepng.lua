@@ -7,7 +7,7 @@ local New = Fusion.New
 local function elementsfirepng()
    return New "ImageLabel"{
        Name = elementsfirepng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1686, 645),
        ImageRectSize = Vector2.new(207, 319),
        BackgroundTransparency = 1,

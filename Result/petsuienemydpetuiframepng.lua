@@ -7,7 +7,7 @@ local New = Fusion.New
 local function petsuienemydpetuiframepng()
    return New "ImageLabel"{
        Name = petsuienemydpetuiframepng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1, 1898),
        ImageRectSize = Vector2.new(509, 73),
        BackgroundTransparency = 1,

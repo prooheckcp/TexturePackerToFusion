@@ -7,7 +7,7 @@ local New = Fusion.New
 local function elementsthunderpng()
    return New "ImageLabel"{
        Name = elementsthunderpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1050, 672),
        ImageRectSize = Vector2.new(316, 319),
        BackgroundTransparency = 1,

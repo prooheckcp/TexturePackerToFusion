@@ -7,7 +7,7 @@ local New = Fusion.New
 local function battlemenubattlemenudpeticonpng()
    return New "ImageLabel"{
        Name = battlemenubattlemenudpeticonpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1748, 1684),
        ImageRectSize = Vector2.new(78, 107),
        BackgroundTransparency = 1,

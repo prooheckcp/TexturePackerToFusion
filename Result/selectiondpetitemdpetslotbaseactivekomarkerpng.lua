@@ -7,7 +7,7 @@ local New = Fusion.New
 local function selectiondpetitemdpetslotbaseactivekomarkerpng()
    return New "ImageLabel"{
        Name = selectiondpetitemdpetslotbaseactivekomarkerpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1398, 1591),
        ImageRectSize = Vector2.new(324, 119),
        BackgroundTransparency = 1,

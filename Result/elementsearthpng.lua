@@ -7,7 +7,7 @@ local New = Fusion.New
 local function elementsearthpng()
    return New "ImageLabel"{
        Name = elementsearthpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1594, 1),
        ImageRectSize = Vector2.new(296, 323),
        BackgroundTransparency = 1,

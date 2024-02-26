@@ -7,7 +7,7 @@ local New = Fusion.New
 local function buttonsbuttonredlongpng()
    return New "ImageLabel"{
        Name = buttonsbuttonredlongpng,
-       Image = "a",
+       Image = "rbxassetid://16529094664",
        ImageRectOffset = Vector2.new(1644, 1823),
        ImageRectSize = Vector2.new(183, 68),
        BackgroundTransparency = 1,
